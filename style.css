@@ -1,0 +1,291 @@
+/*
+      h1 {
+        color: blue;
+        background-color: blue;
+        border: 2px solid black;
+      }
+	  
+	  #ha {
+        color: blue;
+        background-color: blue;
+        border: 2px solid black;
+      }
+
+      p {
+		background-color: blue;
+        border: 2px solid black;
+      }
+	  
+	nav
+		{
+			float: left;
+			width: 500px;
+			border: 2px solid black;
+		}
+		
+
+	#MPSection
+		{
+			margin-left: 600px;
+			border: 2px solid blue;
+						width: 300px;
+
+		}
+		
+	#MDSection
+		{
+			margin-left: 600px;
+			margin-top: 100px;
+			border: 2px solid blue;
+			width: 250px;
+
+		}
+		
+	#MTSection
+		{
+			margin-left: 900px;
+			border: 1px solid blue;
+			width: 200px;
+			margin-top: -147px;
+		}
+		
+	#MQSection
+		{
+			margin-left: 600px;
+			border: 1px solid blue;
+			width: 500px;
+			margin-top: 50px;
+
+		}
+		
+	#im
+		{
+			width: 100px;
+			height:60px;
+
+		}
+		
+	#ima
+		{
+			border: 1px solid blue;
+			width: 20px;
+		}
+		
+	#imb
+		{
+			border: 1px solid blue;
+			width: 20px;
+		}
+		
+	#imc
+		{
+			border: 1px solid blue;
+			width: 20px;
+		}
+		
+	#imd
+		{
+			border: 1px solid blue;
+			width: 20px;
+		}
+		
+	#ime
+		{
+			border: 1px solid blue;
+			width: 20px;
+		}
+		
+	#imf
+		{
+			border: 1px solid blue;
+			width: 20px;
+		}
+		
+	#img
+		{
+			border: 1px solid blue;
+			width: 2px;
+		}
+		
+	#nava
+		{
+			border: 1px solid blue;
+			background-color: blue;
+			color:white
+		}
+		
+	#file
+		{
+			width: 500px
+		}
+		
+	.clasa
+		{
+			color:white
+		}
+		
+	.clasb
+		{
+			color:white
+		}
+		
+	#inpA
+		{
+			width:494px;
+			height:auto;		
+		}
+		
+</style>
+*/
+
+#nom{
+	position: relative;
+	margin: 50px;
+	width: 75%;
+	min-height: 1000px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35px 55px rgba(99, 97, 97, 0.1);
+}
+.pho{
+	display: flex;
+	width: 90%;
+	height: 20%;
+	background-color: rgb(219, 211, 211);
+	justify-content: space-between;
+	outline: none;
+	border-style: none;
+	width: 100%;
+}
+.presentation{
+	display: flex;
+	flex-direction: row;
+	color: black;
+}
+.nom{
+	display: inline;
+}
+.champ{
+	background-color: rgb(219, 211, 211);
+
+}
+.searchbar{
+background-image: url("IMAGE/IMG-20191116-WA0081.jpg");
+display: flex;
+flex-direction: column;
+width:90%;
+height: 30%;
+background-size: cover ;
+justify-content: space-between;
+align-items: center;
+padding: 5%;
+
+}
+.periode{
+	display: inline;
+	color: blue;
+}
+.birthday{
+	display: flex;
+}
+.nava{
+	color: white;
+	background-color: rgb(18, 18, 104);
+}
+.imagepresentation{
+	width: 30px;
+	height: 30px;
+}
+.performance{
+	display: flex;
+	
+}
+
+.star{
+	width: 15px;
+	height: 15px;
+}
+.interet{
+	display: flex;
+	margin-right: 20px;
+	
+	
+}
+
+#im{
+	width: 80px;
+	height: 80px;
+	border-radius:50%;
+
+}
+h1 {
+	color: blue;
+	background-color: blue;
+	border: 2px solid white;
+  }
+  #ha {
+	color: blue;
+	background-color: blue;
+	border: 2px solid white;
+  }
+
+  p {
+	background-color: rgb(13, 13, 85);
+	border: 2px solid white;
+  
+}
+
+.titleBar{
+	background-color: blue;
+	width: 100%;
+	height: 5%;
+	color: white;
+	border-radius: 5px 5px 0px 0px;
+}
+.bloc1{
+	margin-right: 30px;
+}
+.clasa
+		{
+			display: flex;
+			background-color: rgb(13, 13, 85);
+			background-color: white;
+		}
+		
+        .clasb
+		{
+			background-color:rgb(13, 13, 161);
+			color: white;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		.cursus{
+			
+			background-color: rgb(13, 13, 161);
+			width: 20px;
+			height: 20px;
+		}
+		.clasf{
+			
+			background-color:rgb(13, 13, 161);
+			color: white;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			
+		}
+		.experience{
+			width: 60%;
+		}
+		
+		.expertise{
+			width: 20px;
+			height: 20px;
+		}
+		.jeu{
+			font-style: italic;
+		}
+		.descend{
+			margin-top: 120px;
+		}
